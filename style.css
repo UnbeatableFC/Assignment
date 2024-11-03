@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Font family */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+body {
+    background-color: rgba(220, 220, 220, 1);
+}
+
+.header{
+   height: 50px; 
+   max-width:1120px ;
+   display: flex;
+   background-color: white;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 08);
+    size: 15px;
+    object-fit: contain;
+}
+
+.navbar {
+    display: flex;
+}
+
+.ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.li{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+}
+
+.li a {
+    text-decoration: none;
+}
+ 
+.login{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: none;
+    padding:10px 24px;
+}
+
+.login a, .sign-up a {
+    color: #000;
+} 
+
+.sign-up {
+    font-size: 18px;
+    border-style: none;
+    outline: none;
+    padding:10px 24px;
+    background-color: rgba(241, 125, 36, 0.4);
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.bars {
+    background-color: #2d4646;
+    padding: 20px 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.bars i{
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    width: 1120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.mind {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 65px;
+    margin-bottom: -20px;
+    background-color: white;
+
+}
+
+.mind__head {
+    font-size: 40px;
+    line-height: 1.2;
+    padding: 0 50px;
+    margin: 10px 0;
+}
+
+.mind__text {
+    padding: 0 50px;
+    text-align: justify;
+    margin: 10px 0;
+
+}
+
+.mind .mind__button {
+    margin: 13px 200px 13px 40px;
+    outline: none;
+    background-color: #000;
+    font-size: 13px;
+    padding: 10px 35px;
+    border-radius: 20px;
+}
+
+.mind__button:hover {
+    background-color: rgba(208, 209, 115, 0.9);
+    transition: 0.4s;
+    font-size: 16px;
+}
+
+.mind__button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mind__button a:hover {
+    color: black;
+}
+
+.mind-photo {
+    flex: 2.5;
+    background-repeat: no-repeat;
+    background-image: url( '/Assets/sam-farallon-_bdP00Y61ww-unsplash.jpg' );
+    background-blend-mode: luminosity;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .mind__photo-box {
+    padding: 100px;
+    flex: 1;
+} */
+
+.hero_photo {
+    width: 250px;
+    height: 300px;
+    padding: 14px;
+    border: 3px solid rgb(218, 226, 252);
+    border-radius: 20px;
+}
+
+/* Breez Section */
+
+.breez {
+    background: rgb(216, 239, 243);
+    width: 1120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px ;
+    flex-direction: column;
+}
+
+.breez__heading {
+    flex: 1;
+    align-items: center;
+    padding: auto;
+   justify-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+    
+
+}
+
+.breez__h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.breez__text {
+    text-align: center;
+    margin: 25px 0;
+    padding: 0 200px;
+}
+
+.breeze__photo-grid {
+    flex: 2;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 50px;
+}
+
+.breez__photo{
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.breez__photo img{
+   flex: 1;
+   object-fit: contain;
+   height: fit-content;
+   width: 150px;
+   height: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.breez__photo h4 {
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.breez__photo p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+
+/* Meditate Section */
+
+.meditate {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Medi One */
+.meditate__one {
+    display: flex;
+    flex: 1;
+}
+
+.meditate__pic {
+    flex: 1.8;
+    background-color: rgb(206, 113, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meditate__pic img {
+    padding: 7px;
+    width: 200px;
+    height: 250px;
+    border: 2px solid rgb(36, 32, 32);
+    margin-bottom: 40px;
+    margin-top: -20px;
+    margin-left: -55px;
+}
+
+.meditate__text {
+    flex: 2.5;
+    padding: 30px 0px 60px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-left: -70px;
+}
+
+.meditate__head {
+    margin: 50px 150px 20px 150px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.meditate__sub-head {
+    text-align: left;
+    margin: 10px 150px;
+}
+
+.meditate__para {
+    text-align: left;
+    margin: 10px 150px;
+}
+
+.meditate__btn {
+    text-align: left;
+    margin: 5px 150px 25px 150px;
+    padding: 10px 35px;
+    background: black;
+    border-radius: 20px;
+    transition: all;
+    cursor: pointer;
+}
+
+.meditate__btn:hover {
+    background-color: rgba(208, 209, 115, 0.9);
+    transition: 0.4s;
+    font-size: 18px;
+}
+
+.meditate__btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.meditate__btn a:hover {
+    color: black;
+}
+
+/* Medi Two */
+.meditate__two {
+    flex: 1;
+    display: flex; 
+    position: relative;
+}
+
+/* Plan Text */
+.meditate__plan {
+    flex: 1;
+    padding: 40px;
+    background: white;
+}
+
+.plan__head {
+    font-size: 32px;
+    padding: 70px 30px 10px 30px;
+    text-align: left;
+}
+
+.plan__text {
+    padding: 5px 30px 70px 30px;
+    text-align: left;
+}
+
+/* Table */
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.plan__table {
+    flex: 2.5;
+    z-index: 2;
+    background: rgb(216, 239, 243);
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-top: -45px;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.table__one, .table__two {
+    background: rgb(16, 23, 46);
+    padding: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.thead {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.first {
+    font-size: 12px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.price {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: 700;
+    color: rgb(236, 150, 109);
+}
+
+.pay {
+    justify-self: center;
+    padding: 10px 25px;
+    background-color: rgb(16, 23, 46);
+    outline: none;
+    border: none;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    margin: 20px 25px;
+    cursor: pointer;
+    transition: all;
+}
+
+.pay:hover {
+    background-color: rgba(173, 255, 47, 0.5);
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+
+.pay a {
+    text-decoration: none;
+    color: white;
+}
